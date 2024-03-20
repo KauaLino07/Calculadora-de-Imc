@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
+
+.corpo{
+    text-align: center;
+    background-image: url(ímg/fundo3.png);
+    background-repeat: no-repeat;
+    background-size: 100%;  
+}
+
+/*CONFIGURANDO A PARTE DO TITULO E SUBSTITULO*/
+.titulo{
+    text-align: center;
+    padding-top: 10px;
+    font-size: 40px;
+    color: SteelBlue;
+}
+
+
+
+/*PARTE AONDE VAI FICAR A CAIXA*/
+.caixa{
+    margin: 0;
+    padding: 0 auto;
+    background-color: whitesmoke;
+    border-radius: 30px;
+    max-width: 400px;
+    flex-direction: column;
+}
+
+/*CONFIGURANDO A LETRA DA PARTE DE DENTRO DA CALCULADORA*/
+.Letra{
+    font-size: 30px;
+    font-family: "Space Grotesk", sans-serif;
+    display: flex;
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    padding-top: 20px;
+}
+
+/*CONFIGURAÇÃO DO BUTTON*/
+.button{
+    font-family: "Space Grotesk", sans-serif;
+    font-size: 25px;
+    border-radius: 30px;
+    border: solid 0.5px lightgray;
+}
+
+.button:hover{
+    padding: 10px;
+    font-size: 25px;
+    font-weight: 600px;
+    background-color:SteelBlue;
+    border: 0;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+/*FORMATAR A PARTE DO PLACEHOLDER*/
+.placeholder{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    background-color: rgba(255, 255, 255, 0);
+    border: solid 0.5px lightgray;
+    border-radius: 10px;
+    padding-left: 12px;
+}

@@ -1,0 +1,38 @@
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>CALCULADORA IMC</title>
+    </head>
+        <body class="corpo">
+                <h1 class="titulo">&#8902; CALCULADORA IMC &#8902;</h1>
+            <div class="Letra , caixa">
+                <p>
+                    DIGITE O SEU PESO: 
+                    <input type="text" id="peso" placeholder="Digite o seu peso: " class="placeholder">
+                </p>
+                <p>
+                    DIGITE A SUA ALTURA: 
+                    <input type="text" id="altura" placeholder="Digite a sua altura: "
+                    class="placeholder">
+                </p>
+                
+                <p>
+                    <input onclick="calcularIMC()" type="button" value="CALCULAR" class="button">
+                </p>
+                </div>  
+            
+
+
+                 <div class="titulo">
+                <h2 id="retimc"></h2>
+                <h2 id="retClassificar"></h2>
+                 </div>
+
+                <script src="script.js"></script>
+            
+        </body>
+    </html>
